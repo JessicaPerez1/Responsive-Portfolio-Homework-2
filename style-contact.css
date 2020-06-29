@@ -1,0 +1,13 @@
+main {
+  background-color: #bcfcee;
+}
+hr {
+  border-width: 5px;
+  color: darkgrey;
+}
+footer {
+  background-color: darkgrey;
+}
+.footer {
+  margin: auto;
+}

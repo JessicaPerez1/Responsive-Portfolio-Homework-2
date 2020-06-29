@@ -4,9 +4,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My CONTACT page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style-contact.css" />
   </head>
 
   <body>
-    <header>Jessica Perez</header>
+    <!-- container name and nav elements -->
+    <header class="container-fluid mb-5">
+      <div class="row d-flex fixed-top border-bottom">
+        <!-- navbar name-->
+        <div
+          class="col-12 col-sm-4 mx-0 p-0 d-flex justify-content-center bg-dark"
+        >
+          <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-brand mb-0 h1">Jessica Perez</span>
+          </nav>
+        </div>
+        <!-- nav items-->
+        <div
+          class="col-12 col-sm-8 d-flex justify-content-center justify-content-sm-end"
+        >
+          <nav class="nav">
+            <a class="nav-link active text-info" href="#">About</a>
+            <a class="nav-link text-success" href="#">Portfolio</a>
+            <a class="nav-link text-danger" href="#">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- main container -->
+    <div class="row">
+      <main
+        class="container col-10 col-lg-7 border p-4 mx-6 mx-sm-auto"
+        style="margin-top: 120px; margin-bottom: 200px;"
+      >
+        <h1>Contact</h1>
+        <hr />
+        <!-- form -->
+        <form>
+          <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input
+              type="name"
+              class="form-control"
+              id="exampleInputName"
+              placeholder="Enter your name here"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </main>
+    </div>
+
+    <footer class="footer d-flex" style="height: 50px;">
+      <hr />
+      <div class="footer text-muted">
+        @Copyright
+      </div>
+    </footer>
   </body>
 </html>
