@@ -11,3 +11,6 @@ footer {
 h3 {
   clear: both;
 }
+.img-thumbnail {
+  max-width: 470px;
+}
