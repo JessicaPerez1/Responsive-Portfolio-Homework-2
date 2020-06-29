@@ -3,87 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My CONTACT page</title>
+    <title>Contact</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style-contact.css" />
+    <link rel="stylesheet" href="style-contact.css">
   </head>
 
   <body>
-    <!-- container name and nav elements -->
-    <header class="container-fluid mb-5">
-      <div class="row d-flex fixed-top border-bottom">
-        <!-- navbar name-->
-        <div
-          class="col-12 col-sm-4 mx-0 p-0 d-flex justify-content-center bg-dark"
-        >
-          <nav class="navbar navbar-dark bg-dark">
-            <span class="navbar-brand mb-0 h1">Jessica Perez</span>
-          </nav>
+    <!-- header container -->
+  <div class="container d-flex mx-md-2"></div>
+    <!-- navbar -->
+      <nav class="navbar navbar-dark bg-dark d-flex justify-content-center justify-content-md-start float-md-left mx-md-5">
+        <span class="navbar-brand mb-0 h1  ">Jessica Perez</span>
+      </nav>
+    <!-- nav elements -->
+      <nav class="nav d-flex justify-content-center justify-content-md-end float-md-right">
+        <a class="nav-link active" href="#">About</a>
+        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+  </div>
+</br>
+  <!-- form -->
+  <div class="container">
+  <form class="form mt-3 mx-lg-5" style="max-width: 650px;">
+    <h3>Contact</h3>
+        <div class="form-group">
+          <label for="exampleInputName">Name</label>
+          <input type="name" class="form-control" id="exampleInputName" placeholder="Enter your name">
         </div>
-        <!-- nav items-->
-        <div
-          class="col-12 col-sm-8 d-flex justify-content-center justify-content-sm-end"
-        >
-          <nav class="nav">
-            <a class="nav-link active text-info" href="#">About</a>
-            <a class="nav-link text-success" href="#">Portfolio</a>
-            <a class="nav-link text-danger" href="#">Contact</a>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- main container -->
-    <div class="row">
-      <main
-        class="container col-10 col-lg-7 border p-4 mx-6 mx-sm-auto"
-        style="margin-top: 120px; margin-bottom: 200px;"
-      >
-        <h1>Contact</h1>
-        <hr />
-        <!-- form -->
-        <form>
-          <div class="form-group">
-            <label for="exampleInputName">Name</label>
-            <input
-              type="name"
-              class="form-control"
-              id="exampleInputName"
-              placeholder="Enter your name here"
-            />
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="example@gmail.com"
-            />
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="10"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-dark">Submit</button>
-        </form>
-      </main>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email example@gmail.com" aria-describedby="emailHelp">
     </div>
-
-    <footer class="footer d-flex" style="height: 50px;">
-      <hr />
-      <div class="footer text-muted">
-        @Copyright
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
       </div>
-    </footer>
+  </form>
+</div>
+  <!-- footer -->
+    <footer class="footer text-muted">
+      @Copyright </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

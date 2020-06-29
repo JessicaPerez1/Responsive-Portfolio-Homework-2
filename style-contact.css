@@ -1,13 +1,15 @@
-main {
-  background-color: #bcfcee;
-}
-hr {
-  border-width: 5px;
-  color: darkgrey;
+.card {
+  margin-bottom: 0;
 }
 footer {
-  background-color: darkgrey;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  background-color: lightgray;
+  text-align: center;
+  height: 70px;
+  border-top: 3px solid darkgrey;
 }
-.footer {
-  margin: auto;
+h3 {
+  clear: both;
 }
