@@ -1,0 +1,17 @@
+.card {
+  margin-bottom: 0;
+}
+footer {
+  padding-top: 15px;
+  background-color: lightgray;
+  text-align: center;
+  height: 70px;
+  border-top: 3px solid darkgrey;
+}
+h3 {
+  clear: both;
+}
+img {
+  margin: auto;
+  padding: 10px 10px;
+}

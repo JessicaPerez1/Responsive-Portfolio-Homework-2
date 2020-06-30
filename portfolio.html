@@ -3,10 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My PORTFOLIO page</title>
+    <title>My PORTFOLIO Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="portfolio-style.css">
   </head>
 
   <body>
-    <header>Jessica Perez</header>
+    <!-- header container -->
+    <div class="container d-flex mx-md-2"></div>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark bg-dark d-flex justify-content-center justify-content-md-start float-md-left mx-md-5">
+      <span class="navbar-brand mb-0 h1  ">Jessica Perez</span>
+    </nav>
+    <!-- nav elements -->
+    <nav class="nav d-flex justify-content-center justify-content-md-end float-md-right">
+      <a class="nav-link" href="index.html">About</a>
+      <a class="nav-link active" href="#">Portfolio</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    </br>
+    <!-- portfolio gallery -->
+<main class="container m-auto mx-lg-5" style="max-width: 700px;">
+  <h3 class="portfolio pb-2 border-bottom">Portfolio</h3>
+    <div class="container row">
+
+      <div class="col-md-6 col-12">
+        <div class="thumbnail position-relative text-center">
+          <img style="width: 20rem; height: 15rem" src="https://lakelandescaperoom.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <div class="card-img-overlay position-absolute">
+              <a class="project text-white" href="#">Project 1</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="thumbnail position-relative text-center">
+          <img style="width: 20rem; height: 15rem" src="https://lakelandescaperoom.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+          <div class="card-img-overlay position-absolute">
+              <a class="project text-white" href="#">Project 2</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="thumbnail position-relative text-center">
+          <img style="width: 20rem; height: 15rem" src="https://lakelandescaperoom.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <div class="card-img-overlay position-absolute">
+              <a class="project text-white" href="#">Project 3</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12">
+        <div class="thumbnail position-relative text-center">
+          <img style="width: 20rem; height: 15rem" src="https://lakelandescaperoom.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg">
+            <div class="card-img-overlay position-absolute">
+              <a class="project text-white" href="#">Project 4</a>
+            </div>
+        </div>
+      </div>
+    </div>
+</main>
+
+    <!-- footer -->
+    <footer class="footer fixed-bottom">
+    </footer>
   </body>
 </html>
