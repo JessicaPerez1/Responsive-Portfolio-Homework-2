@@ -24,9 +24,11 @@ h3 {
   background-color: #e6e4e6;
   color: #aa9fa7;
 }
+.nav-link:hover {
+  color: #858384;
+}
 footer {
   padding-top: 15px;
-  background-color: lightgray;
   text-align: center;
   height: 70px;
   border-top: 3px solid darkgrey;

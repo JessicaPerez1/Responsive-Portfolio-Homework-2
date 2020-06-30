@@ -19,13 +19,21 @@ p {
 h3 {
   color: #858384;
 }
+label {
+  color: #858384;
+}
 .nav-link {
   background-color: #e6e4e6;
   color: #aa9fa7;
 }
+.nav-link:hover {
+  color: #858384;
+}
+.form-control {
+  font-size: smaller;
+}
 footer {
   padding-top: 15px;
-  background-color: lightgray;
   text-align: center;
   height: 70px;
   font-size: 10px;

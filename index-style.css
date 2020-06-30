@@ -23,18 +23,14 @@ h3 {
   background-color: #e6e4e6;
   color: #aa9fa7;
 }
+.nav-link:hover {
+  color: #858384;
+}
 footer {
   padding-top: 15px;
-  background-color: lightgray;
   text-align: center;
   font-size: 10px;
   height: 70px;
   border-top: 3px solid darkgrey;
   background-color: #e6e4e6;
 }
-/* #E6E4E6
-#E8COC8
-#858384
-#AF9495 
-#DB7093*/
-/* #b7a9b4 */
