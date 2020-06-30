@@ -1,17 +1,34 @@
 .card {
   margin-bottom: 0;
 }
+h3 {
+  clear: both;
+}
+.img-thumbnail {
+  max-width: 470px;
+}
+img {
+  margin: auto;
+  padding: 10px 10px;
+}
+.navbar {
+  background-color: #858384;
+}
+.navbar-brand {
+  font-size: x-large;
+}
+h3 {
+  color: #858384;
+}
+.nav-link {
+  background-color: #e6e4e6;
+  color: #aa9fa7;
+}
 footer {
   padding-top: 15px;
   background-color: lightgray;
   text-align: center;
   height: 70px;
   border-top: 3px solid darkgrey;
-}
-h3 {
-  clear: both;
-}
-img {
-  margin: auto;
-  padding: 10px 10px;
+  background-color: #e6e4e6;
 }

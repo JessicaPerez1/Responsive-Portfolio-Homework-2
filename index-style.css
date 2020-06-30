@@ -1,16 +1,40 @@
 .card {
   margin-bottom: 0;
 }
-footer {
-  padding-top: 15px;
-  background-color: lightgray;
-  text-align: center;
-  height: 70px;
-  border-top: 3px solid darkgrey;
-}
 h3 {
   clear: both;
 }
 .img-thumbnail {
-  max-width: 470px;
+  max-width: 360px;
 }
+p {
+  color: #6c696b;
+}
+.navbar {
+  background-color: #858384;
+}
+.navbar-brand {
+  font-size: x-large;
+}
+h3 {
+  color: #858384;
+}
+.nav-link {
+  background-color: #e6e4e6;
+  color: #aa9fa7;
+}
+footer {
+  padding-top: 15px;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 10px;
+  height: 70px;
+  border-top: 3px solid darkgrey;
+  background-color: #e6e4e6;
+}
+/* #E6E4E6
+#E8COC8
+#858384
+#AF9495 
+#DB7093*/
+/* #b7a9b4 */
