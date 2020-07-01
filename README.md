@@ -14,9 +14,9 @@ I did not use media queries.
 
 ### Project screenshots
 
-![About page screenshot](../Assets/About-page.png)
-![Portfolio page screenshot](../Assets/Portfolio-page.png)
-![Contact page screenshot](../Assets/Contact-page.png)
+![About page screenshot](About-page.png)
+![Portfolio page screenshot](Portfolio-page.png)
+![Contact page screenshot](Contact-page.png)
 
 ## Project submissions
 
