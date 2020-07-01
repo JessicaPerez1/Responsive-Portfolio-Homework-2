@@ -1,3 +1,14 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  font-family: "Jura", sans-serif;
+}
 .card {
   margin-bottom: 0;
 }
@@ -5,16 +16,17 @@ h3 {
   clear: both;
 }
 .img-thumbnail {
-  max-width: 360px;
+  max-width: 250px;
 }
 p {
   color: #6c696b;
-}
-.navbar {
-  background-color: #858384;
+  font-size: small;
 }
 .navbar-brand {
   font-size: x-large;
+}
+.navbar {
+  background-color: #858384;
 }
 h3 {
   color: #858384;
@@ -22,6 +34,7 @@ h3 {
 .nav-link {
   background-color: #e6e4e6;
   color: #aa9fa7;
+  max-height: 50px;
 }
 .nav-link:hover {
   color: #858384;

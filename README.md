@@ -2,11 +2,21 @@
 
 ## Purpose of this project
 
+`Build a responsive Portfolio using Bootstrap CSS framework`
+
 ### What I did
 
-### Project screenshot
+``
+I used Bootstrap components to build this responsive layout including the grid system, a navbar, images, working links, and a footer.
+I did not use media queries.
 
-[]()
+``
+
+### Project screenshots
+
+![About page screenshot](../Assets/About-page.png)
+![Portfolio page screenshot](../Assets/Portfolio-page.png)
+![Contact page screenshot](../Assets/Contact-page.png)
 
 ## Project submissions
 
