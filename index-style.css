@@ -15,9 +15,6 @@ body {
 h3 {
   clear: both;
 }
-.img-thumbnail {
-  max-width: 250px;
-}
 p {
   color: #6c696b;
   font-size: small;

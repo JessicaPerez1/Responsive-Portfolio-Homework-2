@@ -15,13 +15,6 @@ body {
 h3 {
   clear: both;
 }
-.img-thumbnail {
-  max-width: 470px;
-}
-img {
-  margin: auto;
-  padding: 10px 10px;
-}
 .navbar {
   background-color: #858384;
 }
