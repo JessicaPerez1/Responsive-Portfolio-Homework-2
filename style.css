@@ -15,6 +15,9 @@ body {
 h3 {
   clear: both;
 }
+#image {
+  max-width: 250px;
+}
 p {
   color: #6c696b;
   font-size: small;
